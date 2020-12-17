@@ -1,0 +1,6 @@
+n = input('Digite algo ')
+x = input('Digite outra coisa ')
+y = input('Digite mais outra coisa ')
+print('Sua primeira entrada é alfanumérico? ', n.isalnum())
+print('Sua segunda entrada é numerico? ', x.isnumeric())
+print('Sua terceira entrada é letra? ', y.isalpha())
