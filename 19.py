@@ -1,0 +1,10 @@
+from random import choice
+pri = input("Digite o primeiro aluno: ")
+seg = input("Digite o segundo aluno: ")
+ter = input("Digite o terceiro aluno: ")
+quar = input("Digite o quarto aluno: ")
+quint = input("Digite o quinto aluno: ")
+sex = input("Digite o sexto aluno: ")
+seti = input("Digite o setimo aluno: ")
+sorteado = choice([pri, seg, ter, quar, quint, sex, seti])
+print ("O aluno escolhido foi o {}!".format(sorteado))
